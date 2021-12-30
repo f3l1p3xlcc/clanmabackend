@@ -12,7 +12,13 @@ module.exports = (app) => {
 
     // Update a Note with noteId
     app.put('/notes/:noteId', notes.update);
+	
+	// Update a Note with noteId
+    app.put('/match/:noteId', notes.match);
 
     // Delete a Note with noteId
     app.delete('/notes/:noteId', notes.delete);
+	
+	app.post('/upload', notes.single);
+	
 }
