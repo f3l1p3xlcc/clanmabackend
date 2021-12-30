@@ -1,2 +1,0 @@
-# clanmabackend
-back end Clanma
